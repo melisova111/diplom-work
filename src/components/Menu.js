@@ -4,7 +4,7 @@ import Delivery from "../"
 function Navbar(){ 
   const {auth} = useContext(Context)
   const [user] = useAuthState(auth)
-  return(
+  return( 
     <>
       {
         user ? 

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react" 
 
 function Chat(){
   return(
@@ -6,6 +6,6 @@ function Chat(){
       Chat
     </>
   )
-}
+} 
 
 export default Chat

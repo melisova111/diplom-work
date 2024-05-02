@@ -10,7 +10,7 @@ function AppRouter() {
   const [user] = useAuthState(auth)
 
   return user ? 
-  (
+  ( 
     <Routes>
       <Route key={'/chat'} path={'/chat'} element={<Chat />}  />
       <Route path="*" element={<Navigate to={"/chat"} replace />} />
